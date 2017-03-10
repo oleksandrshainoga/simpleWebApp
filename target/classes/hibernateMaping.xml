@@ -23,7 +23,6 @@
 		</property>
 
 		<!-- List of XML mapping files -->
-		<mapping resource="Employee.hbm.xml" />
-
+		<mapping class="../java/webApp/entity/HibernateTestDao"/>
 	</session-factory>
 </hibernate-configuration>

@@ -5,9 +5,16 @@ import javax.persistence.*;
 @Entity
 @Table
 public class TestHibernate {
+	@Column(name = "id")
 	Integer id;
+	@Column(name = "name")
 	String name;
+	@Column(name = "pass")
 	String password;
+
+	public TestHibernate() {
+		
+	}
 
 	public TestHibernate(String name, String password) {
 		this.name = name;
